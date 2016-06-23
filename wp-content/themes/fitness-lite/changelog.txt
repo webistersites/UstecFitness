@@ -1,0 +1,33 @@
+Version 1.0
+i)  Intial version Release
+
+Version 1.1
+i)  Changes done as per reviewer report.
+
+Version 1.2
+i)  menu dashboard and header z-index issue resolved and footer copyright message in customizer removed.
+
+Version 1.3
+i)   Resolved text domain problem.
+ii)  Solved escape problem.
+iii) Solved deprecated isssue and wp_htmledit_pre change with wp_kses_posts
+iv)  Third party scripts and styles enqueued without the theme slug.
+v)   Used template tag for pagnination instead of custom function.
+
+
+Version 1.4
+i)   Solved theme slug issue as reported by reviewer.
+2)   Set sane default in header instead of outputing html. 
+
+Version 1.5
+i)   Rectified theme for inconsistencies.
+
+Version 1.6
+i)   Responsive Issue Solved.
+ii)  Logo Dual Color.
+
+Version 1.7
+i)   Image Dimenssions and Featured image setup explained within customizer.
+
+Version 1.8
+i)   Solved header already sent error issues.

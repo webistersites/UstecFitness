@@ -1,0 +1,516 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fitness Lite\n"
+"POT-Creation-Date: 2015-07-29 13:22+0530\n"
+"PO-Revision-Date: 2015-07-29 13:22+0530\n"
+"Last-Translator: \n"
+"Language-Team: SKT Themes <support@sktthemes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _;__;_e;gettext\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:14
+msgid "<strong>404</strong> Not Found"
+msgstr ""
+
+#: 404.php:17
+msgid ""
+"Looks like you have taken a wrong turn.....<br />Don't worry... it happens "
+"to the best of us."
+msgstr ""
+
+#: archive.php:30
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: archive.php:38
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: archive.php:41
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: archive.php:44
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: archive.php:47
+msgid "Asides"
+msgstr ""
+
+#: archive.php:50
+msgid "Images"
+msgstr ""
+
+#: archive.php:53
+msgid "Videos"
+msgstr ""
+
+#: archive.php:56
+msgid "Quotes"
+msgstr ""
+
+#: archive.php:59
+msgid "Links"
+msgstr ""
+
+#: archive.php:62 sidebar.php:18
+msgid "Archives"
+msgstr ""
+
+#: comments.php:36 comments.php:56
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:37 comments.php:57
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:38 comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: content-page.php:18 content-single.php:33 content.php:31 image.php:59
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:23 content-single.php:45 image.php:33 image.php:65
+#: inc/template-tags.php:70 inc/template-tags.php:89
+msgid "Edit"
+msgstr ""
+
+#: content-single.php:38 content.php:16
+msgid ", "
+msgstr ""
+
+#: content-single.php:39
+msgid "&nbsp;|&nbsp; Tags: "
+msgstr ""
+
+#: content.php:24 header.php:92
+msgid "Read More &raquo;"
+msgstr ""
+
+#: content.php:28
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: footer.php:13 inc/customizer.php:438
+msgid "Quick Links"
+msgstr ""
+
+#: footer.php:16
+msgid ""
+"<li><a href=\"#\">Home</a></li><li><a href=\"#\">About Us</a></li><li><a "
+"href=\"#\">Portfolio</a></li><li><a href=\"#\">Contact Us</a></li>"
+msgstr ""
+
+#: footer.php:23 inc/customizer.php:462
+msgid "Recent Posts"
+msgstr ""
+
+#: footer.php:37 inc/customizer.php:473
+msgid "Follow Us"
+msgstr ""
+
+#: footer.php:64 inc/customizer.php:484
+msgid "Fitness Center"
+msgstr ""
+
+#: footer.php:65
+msgid "100 King St, Melbourne PIC 4000,<br /> Australia"
+msgstr ""
+
+#: footer.php:66
+msgid "<strong>Phone:</strong> +123 456 7890"
+msgstr ""
+
+#: functions.php:47
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:61
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:62
+msgid "Appears on blog page sidebar"
+msgstr ""
+
+#: header.php:30
+msgid "Menu"
+msgstr ""
+
+#: image.php:23
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> at <a href=\"%3$s\">%4$s &times; %5$s</a> in <a "
+"href=\"%6$s\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+
+#: image.php:38
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: image.php:39
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/customizer.php:47
+msgid "Logo (PRO Version)"
+msgstr ""
+
+#: inc/customizer.php:49
+msgid "<strong>Logo Settings available in <a href=\""
+msgstr ""
+
+#: inc/customizer.php:70
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/customizer.php:71
+msgid "<strong>More color options in <a href=\""
+msgstr ""
+
+#: inc/customizer.php:78
+msgid "Slider Below Info"
+msgstr ""
+
+#: inc/customizer.php:79
+msgid "Title & Description Below The Slider"
+msgstr ""
+
+#: inc/customizer.php:83
+msgid ""
+"<h2>What We Do</h2>\n"
+"<p>We are possionate about our clients results.</p>"
+msgstr ""
+
+#: inc/customizer.php:97
+msgid "Homepage Boxes"
+msgstr ""
+
+#: inc/customizer.php:102 inc/customizer.php:115
+msgid "<div class=\"one_third\"><a href=\"#\"><img alt=\"\" src=\""
+msgstr ""
+
+#: inc/customizer.php:108
+msgid "First column content"
+msgstr ""
+
+#: inc/customizer.php:121
+msgid "Second column content"
+msgstr ""
+
+#: inc/customizer.php:129
+msgid "<div class=\"one_third last_column\"><a href=\"#\"><img alt=\"\" src=\""
+msgstr ""
+
+#: inc/customizer.php:135
+msgid "Third column content"
+msgstr ""
+
+#: inc/customizer.php:145
+msgid "Slider Settings"
+msgstr ""
+
+#: inc/customizer.php:146
+msgid ""
+"Add slider images here. <br><strong>More slider settings available in <a "
+"href=\""
+msgstr ""
+
+#: inc/customizer.php:155
+msgid "Slide Image 1 (1400x682)"
+msgstr ""
+
+#: inc/customizer.php:162 inc/customizer.php:246
+msgid "Welcome to Fitness Center"
+msgstr ""
+
+#: inc/customizer.php:166
+msgid "Slide title 1"
+msgstr ""
+
+#: inc/customizer.php:171
+msgid "We are passionate about clients results"
+msgstr ""
+
+#: inc/customizer.php:175
+msgid "Slider description  1"
+msgstr ""
+
+#: inc/customizer.php:187
+msgid "Slide link 1"
+msgstr ""
+
+#: inc/customizer.php:197
+msgid "Slide image 2"
+msgstr ""
+
+#: inc/customizer.php:204
+msgid "Support 24x7"
+msgstr ""
+
+#: inc/customizer.php:208
+msgid "Slide title 2"
+msgstr ""
+
+#: inc/customizer.php:213
+msgid "Sed rhoncus euismod risus tristique imperdiet Morbi fringilla"
+msgstr ""
+
+#: inc/customizer.php:217
+msgid "Slide description 2"
+msgstr ""
+
+#: inc/customizer.php:228
+msgid "Slide link 2"
+msgstr ""
+
+#: inc/customizer.php:239
+msgid "Slide Image 3"
+msgstr ""
+
+#: inc/customizer.php:250
+msgid "Slide title 3"
+msgstr ""
+
+#: inc/customizer.php:255
+msgid "Lorem ipsum rhoncus euismod risus tristique imperdiet Morbi fringilla"
+msgstr ""
+
+#: inc/customizer.php:259
+msgid "Slide Description 3"
+msgstr ""
+
+#: inc/customizer.php:271
+msgid "Slide link 3"
+msgstr ""
+
+#: inc/customizer.php:285
+msgid "Slide Image 4"
+msgstr ""
+
+#: inc/customizer.php:296
+msgid "Slide title 4"
+msgstr ""
+
+#: inc/customizer.php:309
+msgid "Slide description 4"
+msgstr ""
+
+#: inc/customizer.php:320
+msgid "Slide link 4"
+msgstr ""
+
+#: inc/customizer.php:334
+msgid "Slide image 5"
+msgstr ""
+
+#: inc/customizer.php:345
+msgid "Slide title 5"
+msgstr ""
+
+#: inc/customizer.php:358
+msgid "Slide description 5"
+msgstr ""
+
+#: inc/customizer.php:369
+msgid "Slide link 5"
+msgstr ""
+
+#: inc/customizer.php:374
+msgid "Social Settings"
+msgstr ""
+
+#: inc/customizer.php:375
+msgid ""
+"Add social icons link here. More social icons can be found <br><strong><a "
+"href=\""
+msgstr ""
+
+#: inc/customizer.php:384
+msgid "Add facebook link here"
+msgstr ""
+
+#: inc/customizer.php:394
+msgid "Add twitter link here"
+msgstr ""
+
+#: inc/customizer.php:403
+msgid "Add google plus link here"
+msgstr ""
+
+#: inc/customizer.php:412
+msgid "Add linkedin link here"
+msgstr ""
+
+#: inc/customizer.php:421
+msgid "Footer Area"
+msgstr ""
+
+#: inc/customizer.php:423
+msgid "Add footer copyright text"
+msgstr ""
+
+#: inc/customizer.php:432
+msgid "To remove credit &amp; copyright text upgrade to PRO version"
+msgstr ""
+
+#: inc/customizer.php:443
+msgid "Add title for menu"
+msgstr ""
+
+#: inc/customizer.php:449
+msgid ""
+"<li><a href=\"#\">Home</a></li><li><a href=\"#\">About Us</a></li> <li><a "
+"href=\"#\">Portfolio</a></li><li><a href=\"#\">Contact Us</a></li>"
+msgstr ""
+
+#: inc/customizer.php:467
+msgid "Add title for latest news"
+msgstr ""
+
+#: inc/customizer.php:478
+msgid "Add title for footer social icons"
+msgstr ""
+
+#: inc/customizer.php:489
+msgid "Add title for footer contact info"
+msgstr ""
+
+#: inc/customizer.php:496
+msgid "Contact Details"
+msgstr ""
+
+#: inc/customizer.php:497
+msgid "Add you contact details here"
+msgstr ""
+
+#: inc/customizer.php:503
+msgid "100 King St, Melbourne PIC 4000, Australia"
+msgstr ""
+
+#: inc/customizer.php:508
+msgid "Add contact address here"
+msgstr ""
+
+#: inc/customizer.php:515
+msgid "Phone: +123 456 7890"
+msgstr ""
+
+#: inc/customizer.php:519
+msgid "Add contact number here."
+msgstr ""
+
+#: inc/customizer.php:529
+msgid "Add you email here"
+msgstr ""
+
+#: inc/customizer.php:537
+msgid "Layout Settings (PRO Version)"
+msgstr ""
+
+#: inc/customizer.php:539
+msgid "<strong>Layout Settings available in  <a href=\""
+msgstr ""
+
+#: inc/customizer.php:558
+msgid "Fonts Settings (PRO Version)"
+msgstr ""
+
+#: inc/customizer.php:560
+msgid "<strong>Font Settings available in <a href=\""
+msgstr ""
+
+#: inc/customizer.php:579
+msgid "Documentation &amp; Support"
+msgstr ""
+
+#: inc/customizer.php:581
+msgid "For documentation and support check this link : <a href=\""
+msgstr ""
+
+#: inc/template-tags.php:33
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:43
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:47
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:70
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:93
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:184
+#, php-format
+msgid ""
+"<span class=\"posted-on\">Published %1$s</span><span class=\"byline\"> by "
+"%2$s</span>"
+msgstr ""
+
+#: index.php:92
+msgid "Latest Posts"
+msgstr ""
+
+#: no-results.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: no-results.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: sidebar.php:11
+msgid "Category"
+msgstr ""
+
+#: sidebar.php:24
+msgid "Meta"
+msgstr ""

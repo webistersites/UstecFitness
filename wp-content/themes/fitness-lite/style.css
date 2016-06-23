@@ -1,0 +1,259 @@
+/*
+Theme Name: Fitness Lite
+Theme URI: http://www.sktthemes.net/shop/fitness-lite/
+Author: SKT Themes
+Author URI: http://www.sktthemes.net
+Description: SKT  Fitness is a simple and adaptable responsive fitness WordPress theme with focus on fitness trainers, gyms, fitness studios, weights, yoga trainers and weight loss enthusiasts. It is built upon customizer so you can do changes in real time and check changes. Color scheme can be changed and very easy to set up and use this theme. Compatible with WooCommerce so it can be used for ECommerce purposes as well. Compatible with Nextgen gallery for portfolio needs and contact form 7. Demo Link: http://sktthemesdemo.net/skt-fitness/
+
+Version: 1.8
+License: GNU General Public License
+License URI: license.txt
+Text Domain: fitness-lite
+Tags: black,gray,orange,brown,white,dark,one-column,two-columns,right-sidebar,responsive-layout,custom-background,custom-colors,custom-menu,sticky-post,theme-options,threaded-comments
+
+Fitness Lite WordPress Theme has been created by SKT Themes(sktthemes.net), 2015.
+Fitness Lite WordPress Theme is released under the terms of GNU GPL
+*/
+body{ margin:0; padding:0;line-height:20px; font-size:13px; color:#5d5c5c; font-family:Arial, Helvetica, sans-serif;}
+*{ margin:0; padding:0; outline:none;}
+img{ border:none; margin:0; padding:0; height:auto}
+.wp-caption, .wp-caption-text, .sticky, .gallery-caption, .aligncenter{ margin:0; padding:0;}
+p{ margin:0; padding:0;}
+a{ text-decoration:none; color:#ff4e1c;}
+a:hover{ color:#ff6565;}
+ol,ul{ margin:0; padding:0;}
+ul li ul, ul li ul li ul, ol li ol, ol li ol li ol{ margin-left:10px;}
+h1,h2,h3,h4,h5,h6{ color:#484f5e; font-family:'Roboto', sans-serif; margin:0 0 20px; padding:0; line-height:1.1; font-weight:300; word-wrap:break-word;}
+h1{ font-size:36px;}
+h2{ font-size:30px;}
+h3{ font-size:24px;}
+h4{ font-size:20px;}
+h5{ font-size:18px;}
+h6{ font-size:14px;}
+.clear{ clear:both;}
+.alignnone{ width:100% !important;}
+img.alignleft, .alignleft{ float:left; margin:0 15px 0 0; padding:5px; border:1px solid #cccccc;}
+img.alignright, .alignright{ float:right; margin:0 0 0 15px; padding:5px; border:1px solid #cccccc;}
+.left{ float:left;}
+.right{ float:right;}
+.space50{ clear:both; height:50px;}
+.space25{ clear:both; height:25px;}
+.pagination{display:table; clear:both;}
+.pagination ul{list-style:none; margin:20px 0;}
+.pagination ul li{display:inline; float:left; margin-right:5px;}
+.pagination ul li span, .pagination ul li a{background:#646262; color:#fff; padding:5px 10px; display:inline-block;}
+.pagination ul li .current, .pagination ul li a:hover{background:#34c6f6;}
+
+#comment-nav-above .nav-previous, #comment-nav-below .nav-previous{ float:none !important; margin:10px 0;}
+ol.comment-list li{ list-style:none; margin-bottom:5px;}
+
+.header .header-inner .logo, .headerhome .header-inner .logo{float:left; position:absolute; left:0; top:-1px; z-index:999; padding:15px;  color:#fff;}
+.header .header-inner, .headerhome .header-inner{ margin:0 auto; padding:0; position:relative; width:1100px;}
+.header .header-inner .logo h1, .headerhome .header-inner .logo h1{font-weight:400; margin:0px; line-height:36px; color:#fff; text-transform:uppercase;}
+.logo h1 span{ color:#ff4e1c; font-weight:300;}
+.header span.tagline, .headerhome span.tagline{ font-size:13px;}
+.header .header-inner .logo a, .headerhome .header-inner .logo a{ color:#fff;}
+.header .header-inner .logo img, .headerhome .header-inner .logo img{ height:55px; }
+.container{ width:1100px; margin:0 auto; position:relative;}
+
+.bookbtn{ background-color: #ff4e1c; border: 1px solid #03cbe9; color: #ffffff; font:200 28px/28px 'Roboto',san-serif;  position:absolute; padding:10px 30px; display:inline-block; top:-50px; z-index:999; text-transform:uppercase; border-bottom:none !important; -webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px; cursor:pointer;   }
+.bookbtn span{ margin-left:15px;}
+
+
+/*header menu css*/
+.toggle{display: block;}
+.toggle a{width:100%; color:#ffffff; background:url(images/mobile_nav_right.png) no-repeat right center #3e3e3e; padding:10px 10px; margin-top:5px; font-size:16px;}
+.toggle a:hover{color:#ffffff !important;}
+.nav{display:none;}
+
+
+.header{width:100%; position:absolute; height:auto; z-index:999999; background-color:rgba(0, 0, 0, 0.2);}
+.headerhome{width:100%; position:absolute; height:auto; z-index:999999; background-color:rgba(0, 0, 0, 0.2);}
+#innerPage .header{ position:relative; background-color:#333;}
+body.home .header{background-color:rgba(0, 0, 0, 0.2) !important; position: absolute !important;}
+/*body.blog .header{background-color:rgba(0, 0, 0, 1) !important; position: relative !important;}
+body.home .header{background-color:rgba(0, 0, 0, 0.2) !important; position: absolute !important;}*/
+ 
+
+.header .header-inner .nav, .headerhome .header-inner .nav{ padding:0; text-align:right; float:right;}
+.header .header-inner .nav ul, .headerhome .header-inner .nav ul { float:right; margin:0; padding:0; font-family:'Roboto Condensed', sans-serif; font-weight:400; font-size:15px;}
+.header .header-inner .nav ul li, .headerhome .header-inner .nav ul li{ display:inline-block; margin:0; position:relative; text-align:center;}
+.header .header-inner .nav ul li a, .headerhome .header-inner .nav ul li a{ padding:33px 13px; display:block; color:#fff; }
+.header .header-inner .nav ul li ul li, .headerhome .header-inner .nav ul li ul li{display:block; position:relative; float:none; top:-1px;}
+.header .header-inner .nav ul li ul li a, .headerhome .header-inner .nav ul li ul li a{display:block; padding-top:10px; padding-bottom:10px; position:relative; top:1px; text-align:left; border-top:1px solid #fff;}
+.header .header-inner .nav ul li a:hover, .header .header-inner .nav ul li.current_page_item a, .headerhome .header-inner .nav ul li a:hover, .headerhome .header-inner .nav ul li.current_page_item a{ background-color:#ff4e1c; color:#fff; }
+
+.header .header-inner .nav ul li ul, .headerhome .header-inner .nav ul li ul{display:none; z-index:9999999; position:relative;}
+.header .header-inner .nav ul li:hover > ul, .headerhome .header-inner .nav ul li:hover > ul{display:block; width:200px; position:absolute; left:0; text-align:left; background-color:rgba(0, 0, 0, 0.5); box-shadow:0 2px 2px #333;}
+.header .header-inner .nav ul li:hover ul li ul, .headerhome .header-inner .nav ul li:hover ul li ul{display:none; position:relative;}
+.header .header-inner .nav ul li:hover ul li:hover > ul, .headerhome .header-inner .nav ul li:hover ul li:hover > ul{display:block; position:absolute; left:200px; top:1px;}
+
+
+/* = header top sign in  css
+-------------------------------------------------------------- */
+section#home_slider{ padding:0;}
+#FrontBlogPost, #wrapsecond{ padding:50px 0;}
+h2.section-title {color:#454545; font:300 36px/40px 'Roboto',san-serif; text-align: center; text-transform:uppercase;}
+
+
+/* = Services section css
+-------------------------------------------------------------- */
+#wrapsecond{ background-color:#272727; color:#fff; padding-bottom:100px; }
+.services-wrap, #FrontBlogPost .BlogPosts{ visibility:hidden;}
+.one_third{ width:26%; margin:0 3.5% 0 0; float:left; padding:25px; border:2px solid #fff;}
+.one_third:hover{ border-color:#ff4e1c;}
+.one_third:hover .ReadMore{ background-color:#ff4e1c;}
+
+.one_third img{ width:100%;}
+.one_third h4{font:600 18px/22px 'Roboto',san-serif;  padding:20px 0; margin:0; text-transform:uppercase; color:#fff;}
+.one_third h4 span{ color:#ff4e1c; font-weight:300;}
+
+.one_third h4 span::after{content:" __________________"; display:inline-block;}
+
+
+.one_third p{ margin-bottom:20px; color:#fff;}
+.last_column{clear:right; margin-right:0 !important; }
+#wrapsecond h2{ font-size:40px; color:#fff; font-weight:600; margin-bottom:0; text-transform:uppercase; }
+#wrapsecond h2 span{ color:#ff4e1c; font-weight:300; }
+
+/* = social icons css
+-------------------------------------------------------------- */
+.social-icons a{ background-color:#545556; width:45px; height:45px; line-height:45px; border-radius:50%; text-align:center;  vertical-align:middle; display:inline-block; transition:0.6s; -moz-transition:0.6s; -webkit-transition:0.6s; -o-transition:0.6s; font-size:20px;  color:#fff; margin:0 3px; padding:0; }
+.social-icons br{ display:none;}
+.social-icons a:hover{ background-color:#ff4e1c;}
+
+/* = Page lay out css
+-------------------------------------------------------------- */
+.site-main{ width:740px; margin:0; padding:0; float:left;}
+#sitefull{ width:100%; float:none;}
+#sitefull p{ margin-bottom:15px;}
+.page_content{ padding:25px 0;}
+.page_content p{ margin-bottom:20px; line-height:20px;}
+
+.blog_lists{margin-bottom:30px !important; height:auto;}
+.blog_lists h2{ margin-bottom:10px;}
+.blog_lists h2 a{ color:#484f5e;}
+.blog_lists h2 a:hover{ color:#34c6f6;}
+.blog_lists p{ margin-bottom:10px;}
+.blog-meta{ font-style:italic; margin-bottom:8px;}
+.post-date, .post-comment, .post-categories{ display:inline; color:#000000;} 
+.single_title{ margin-bottom:5px;}
+.BlogPosts{ width:31.2%; float:left; margin:0 3% 0 0; text-align:center;}
+.BlogPosts img{ width:100%;}
+.BlogPosts h2{ margin:10px 0; font-size:20px;}
+.MoreLink{ background-color:transparent; color:#5d5c5c ;display: inline-block; border:2px solid #ff4e1c; padding:5px 10px; border-radius:3px; -moz-border-radius:3px; -moz-border-radius:3px;}
+.MoreLink:hover{ background-color:#ff4e1c; color:#fff; }
+
+/* = sidebar
+-------------------------------------------------------------- */
+#sidebar{ width:330px; float:right;}
+aside.widget{margin-bottom:30px; background-color:#f6f4f4; padding:20px; border:1px solid #edecec;}
+aside.widget ul{ list-style:disc; }
+h3.widget-title{ background-color:#ff4e1c; padding:12px 15px; margin-bottom:1px; color:#fff;}
+#sidebar ul li{ list-style:none;}
+#sidebar ul li a{ font:300 14px/18px "Roboto",sans-serif; background:url(images/sidebar-arrow.png) no-repeat 0 14px; padding:10px 0 10px 20px; color:#3b3b3b; border-bottom:1px dashed #d0cfcf; display:block; word-wrap:break-word;}
+#sidebar ul li a:hover{ color:#34c6f6;}
+#sidebar ul li:last-child a{ border:none;}
+
+
+
+/* = Footer css
+-------------------------------------------------------------- */
+#footer-wrapper{background:url(images/footer.jpg) no-repeat center top #020202; position:relative; padding:45px 0 0; color:#fff;}
+.cols-4{width:22%; float:left; margin:0 6% 2% 0; }
+.widget-column-1 { width:15%;}
+.widget-column-4 { margin-right:0px !important;}
+.cols-4 h5{ font-weight:600; font-size:22px; color:#fff; margin-bottom:25px; text-transform:uppercase;  }
+.cols-4 h5 span{ font-weight:300; color:#ff4e1c; }
+.cols-4 ul{ margin:0; padding:0; list-style:inside disc;}
+.cols-4 ul li { display:block; padding:0;}
+.cols-4 ul li a { color:#fff; font:normal 12px/24px Arial, Helvetica, sans-serif; background:url(images/list-arrow.png) no-repeat 0 2px; padding:0 0 0 20px;}
+.cols-4 ul li a:hover, .cols-4 ul li.current_page_item a { color:#dd5145; }
+
+.cols-4 a.readmore span{ color:#fff;}
+.cols-4 p{ margin-bottom:15px;}
+.cols-4 h1, .cols-4 h2, .cols-4 h3, .cols-4 h4, .cols-4 h5, .cols-4 h6{color:#fff;}
+.phone-no{ margin:10px 0 20px; line-height:22px;}
+.phone-no a{color:#d6d6d6;}
+.phone-no a:hover{color:#d6d6d6;}
+.phone-no strong { display:inline-block; color:#ff4e1c;}
+.cols-4 .phone-no p{ margin-bottom:0;}
+
+.copyright-wrapper {  background-color:#272727; position:relative; padding:15px 0;}
+.copyright-txt { float:left;}
+.copyright-txt span{color:#ff4e1c;}
+.design-by { float:right;}
+.recent-post{ min-height:70px; margin:0 0 20px 0;}
+.recent-post img{ float:left; width:60px; margin:3px 10px 5px 0;}
+.recent-post h6{ font-size:15px; color:#fff; margin:0 0 5px; font-weight:600;}
+.recent-post h6:hover{color:#34c6f6;}
+.recent-post:last-child{ border-bottom:none; margin-bottom:0; padding-bottom:0;}
+
+/* Buttons */
+.button{ background-color:#ff6565; border-bottom:4px solid #e44545; color:#fff; padding:8px 20px; display:inline-block; border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px; -o-border-radius:2px; -ms-border-radius:2px; }
+.button:hover{background-color:#34c6f6; border-color:#1898c2; color:#fff;}
+
+/* woocommerce CSS
+================================================*/
+a.added_to_cart{background:#e1472f; padding:5px; display:inline-block; color:#fff; line-height:1;}
+a.added_to_cart:hover{background:#000000;}
+a.button.added:before{content:'' !important;}
+#bbpress-forums ul li{padding:0;}
+#subscription-toggle a.subscription-toggle{padding:5px 10px; display:inline-block; color:#e1472f; margin-top:4px;}
+textarea.wp-editor-area{border:1px #ccc solid;}
+.woocommerce input[type=text], .woocommerce textarea{border:1px #ccc solid; padding:4px;}
+form.woocommerce-ordering select{ padding:5px; color:#777777;}
+.woocommerce table.shop_table th, .woocommerce-page table.shop_table th{ font-family:'Roboto',san-serif; color:#ff8a00;}
+.woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price{ color:inherit !important;}
+h1.product_title, p.price{ margin-bottom:10px;}
+.woocommerce table.shop_table th, .woocommerce-page table.shop_table th{ font-family:'Roboto',san-serif; color:#ff6d84;}
+.woocommerce ul.products li, #payment ul.payment_methods li{ list-style:none !important;}
+.woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price{ color:inherit !important;}
+.woocommerce table.shop_table th, .woocommerce table.shop_table td{ border-bottom:0px !important}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {clip: rect(1px, 1px, 1px, 1px);position: absolute !important;	height: 1px;width: 1px;	overflow: hidden;}
+.screen-reader-text:focus {	background-color: #f1f1f1;	border-radius: 3px;	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);	clip: auto !important;	color: #21759b;	display: block;
+	font-size: 14px;font-size: 0.875rem;font-weight: bold;	height: auto;left: 5px;	line-height: normal;padding: 15px 23px 14px;text-decoration: none;	top: 5px;	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+/* ============= Contact Page =========== */
+.wpcf7{ margin:30px 0 0; padding:0;}
+.wpcf7 input[type="text"], .wpcf7 input[type="tel"], .wpcf7 input[type="email"]{ width:40%; border:1px solid #cccccc; box-shadow:inset 1px 1px 2px #ccc; height:35px; padding:0 15px; color:#797979; margin-bottom:0;}
+.wpcf7 textarea{width:60%; border:1px solid #cccccc; box-shadow:inset 1px 1px 2px #ccc; height:150px; color:#797979; margin-bottom:25px; font:12px arial; padding:10px; padding-right:0;}
+.wpcf7 input[type="submit"]{background-color:#ff4e1c; width:auto; border:none; cursor:pointer; text-transform:uppercase; font:18px 'Roboto',san-serif; color:#ffffff; padding:10px 40px; border-radius:3px;}	
+
+/* ============= Comment Form ============ */
+h1.screen-reader-text{font:22px 'Roboto',san-serif;}
+.site-nav-previous, .nav-previous{ float:left;}
+.site-nav-next, .nav-next{ float:right;}
+h3#reply-title{font:300 18px 'Roboto',san-serif;}
+#comments{ margin:30px 0 0; padding:0;}
+nav#nav-below{ margin-top:15px;}
+#wpadminbar{z-index: 999999999 !important;}
+
+.page-numbers {
+	display: inline-block;
+	padding: 5px 10px;
+	margin: 0 2px 0 0;
+	border: 1px solid #eee;
+	line-height: 1;
+	text-decoration: none;
+	border-radius: 2px;
+	font-weight: 600;
+}
+.page-numbers.current,
+a.page-numbers:hover {
+	background: #f9f9f9;
+}
+
+.block-message{position: absolute; background-color:#ff4e1c; margin:0 auto; text-align:center; width:100%; color:#FFF; padding:50px 0 50px 0; margin-top:85px;}
+.boxdemo{position:relative; top:130px; margin-bottom:100px !important;}
+.whatdodemo{ position:relative; top:140px;}
+
+.block-message-two{position: relative; background-color:#ff4e1c; margin:0 auto; text-align:center; width:100%; color:#FFF; padding:50px 0 50px 0; top:85px; margin-bottom:70px;}
